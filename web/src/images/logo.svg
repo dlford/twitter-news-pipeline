@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="D:\git\news-pipeline\web\src\images\logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient848"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#d45500;stop-opacity:1;"
+         offset="0"
+         id="stop846" />
+    </linearGradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient2335"
+       gradientUnits="userSpaceOnUse"
+       x="20.358654"
+       y="181.96354">
+      <meshrow
+         id="meshrow2337">
+        <meshpatch
+           id="meshpatch2339">
+          <stop
+             path="c 26.1643,-26.1248  68.585,-26.1248  94.7494,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop2341" />
+          <stop
+             path="c 26.1643,26.1248  26.1643,68.4814  0,94.6062"
+             style="stop-color:#d45500;stop-opacity:1"
+             id="stop2343" />
+          <stop
+             path="c -26.1643,26.1248  -68.585,26.1248  -94.7494,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop2345" />
+          <stop
+             path="c -26.1643,-26.1248  -26.1643,-68.4814  -1.42109e-014,-94.6062"
+             style="stop-color:#d45500;stop-opacity:1"
+             id="stop2347" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="248.61087"
+     inkscape:cy="257.81498"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-161.53332)">
+    <ellipse
+       style="fill:url(#meshgradient2335);fill-opacity:1;stroke:none;stroke-width:0.56717819;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path18"
+       cx="67.73333"
+       cy="229.26665"
+       rx="66.99791"
+       ry="66.896698" />
+    <path
+       style="fill:none;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 53.654356,233.05575 -9.220798,38.8209 9.220798,0.0668 z"
+       id="path844"
+       inkscape:connector-curvature="0" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot10"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Montserrat Black';-inkscape-font-specification:'Montserrat Black, ';letter-spacing:0px;word-spacing:0px;fill:#552200;fill-opacity:1;stroke:none;"
+       transform="matrix(3.0521577,0,0,3.0521577,-92.47847,-426.1789)"><flowRegion
+         id="flowRegion12"
+         style="fill:#552200;"><rect
+           id="rect14"
+           width="45.714291"
+           height="48.571419"
+           x="36.42857"
+           y="192"
+           style="fill:#552200;" /></flowRegion><flowPara
+         id="flowPara16">N</flowPara></flowRoot>    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 109.66317,186.4892 -23.056541,85.23363 23.245531,-0.18899 z"
+       id="path848"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 25.941451,271.91182 49.375974,186.86718 25.563475,186.4892 Z"
+       id="path850"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 53.704438,233.103 8.711716,-31.11677 19.465771,23.24553 -8.693451,31.37202 z"
+       id="path852"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

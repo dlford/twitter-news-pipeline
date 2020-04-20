@@ -1,0 +1,29 @@
+{
+  "name": "news-pipeline_egress",
+  "version": "0.0.1",
+  "description": "Purging agent for News Pipeline Web App",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"tsc -w\" \"nodemon dist/app.js\"",
+    "format": "prettier --config ./.prettierrc --write ./src/**/*",
+    "build": "rimraf ./dist && tsc",
+    "start": "node dist/app.js"
+  },
+  "author": "dlford",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@types/cron": "^1.7.2",
+    "@types/mongoose": "^5.7.11",
+    "cron": "^1.8.2",
+    "graphql": "^15.0.0",
+    "graphql-iso-date": "^3.6.1",
+    "mongoose": "^5.9.9",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.4"
+  }
+}

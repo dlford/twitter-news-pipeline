@@ -1,0 +1,103 @@
+version: '3.7'
+
+services:
+  db:
+    volumes:
+      - type: volume
+        source: db-data
+        target: /data/db
+      - type: volume
+        source: db-config
+        target: /data/configdb
+    networks:
+      net1:
+        aliases:
+          - db
+    restart: always
+    build:
+      context: ./db
+      dockerfile: Dockerfile
+  ingress:
+    depends_on:
+      - db
+    restart: always
+    build:
+      context: ./ingress
+      dockerfile: Dockerfile
+    environment:
+      - MONGO_URL=mongodb://db:27017/production
+      - ALLOW_IP=
+      - ALLOW_FROM=
+      - ALLOW_TO=
+    ports:
+      - '25:2525'
+    networks:
+      net1:
+        aliases:
+          - ingress
+  egress:
+    depends_on:
+      - db
+    restart: always
+    build:
+      context: ./egress
+      dockerfile: Dockerfile
+    environment:
+      - MONGO_URL=mongodb://db:27017/production
+      - MAX_AGE_DAYS=5
+      - RUN_INTERVAL=0 0 * * *
+    networks:
+      net1:
+        aliases:
+          - egress
+  publisher:
+    depends_on:
+      - db
+    restart: always
+    build:
+      context: ./publisher
+      dockerfile: Dockerfile
+    environment:
+      - RUN_INTERVAL=0 6-18/2 * * *
+      - MONGO_URL=mongodb://db:27017/production
+      - ACCESS_TOKEN=
+      - ACCESS_TOKEN_SECRET=
+      - API_KEY=
+      - API_KEY_SECRET=
+    networks:
+      net1:
+        aliases:
+          - egress
+  api:
+    depends_on:
+      - db
+    restart: always
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    environment:
+      - MONGO_URL=mongodb://db:27017/production
+    networks:
+      net1:
+        aliases:
+          - api
+  web:
+    depends_on:
+      - db
+      - api
+    restart: always
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    ports:
+      - '80:3000'
+    networks:
+      net1:
+        aliases:
+          - web
+networks:
+  net1:
+    name: newspipeline
+volumes:
+  db-data:
+  db-config:

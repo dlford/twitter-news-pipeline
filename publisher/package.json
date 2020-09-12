@@ -23,7 +23,7 @@
     "graphql": "^15.0.0",
     "graphql-iso-date": "^3.6.1",
     "mongoose": "^5.9.9",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "rimraf": "^3.0.2",
     "twitter": "^1.7.1",
     "typescript": "^3.8.3"
